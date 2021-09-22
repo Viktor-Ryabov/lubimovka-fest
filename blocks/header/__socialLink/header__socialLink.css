@@ -1,0 +1,14 @@
+.header__socialLink{
+    margin: 0;
+    padding: 0 16px 0 0;
+    font-family: Formularlight;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header__socialLink:first-child {
+    padding: 0 16px 0 10px;
+}
+.header__socialLink:last-child {
+    padding: 0 16px 0 10px;
+}

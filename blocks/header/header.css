@@ -1,0 +1,12 @@
+.header {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 61px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Formularlight;
+    border-bottom: #242424 solid 1px;
+}

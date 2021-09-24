@@ -10,3 +10,8 @@
 @import url(../blocks/header/__socialBlock/header__socialBlock.css);
 @import url(../blocks/header/__socialLink/header__socialLink.css);
 
+/*photography*/
+@import url(../blocks/photography/__title/photography__title.css);
+@import url(../blocks/photography/__element/photography__element.css);
+@import url(../blocks/photography/__gallery/photography__gallery.css);
+@import url(../blocks/photography/photography.css);

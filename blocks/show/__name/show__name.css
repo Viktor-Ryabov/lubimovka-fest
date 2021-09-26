@@ -1,0 +1,11 @@
+.show__name{
+    max-width: 420px;
+    font-family: FormularLight;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    margin: 0;
+    padding: 4px 0 0 28px;
+}

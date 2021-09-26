@@ -1,0 +1,15 @@
+.meeting__descriptionAndFoto {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 940px) {
+  .meeting__descriptionAndFoto {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

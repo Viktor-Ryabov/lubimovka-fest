@@ -1,15 +1,25 @@
-.header__link{
-    margin: 0;
-    padding: 0 44px 0 0;
-    font-family: Formularlight;
-    font-size: 16px;
-    text-decoration: none;
-    
+.header__link {
+  margin: 0;
+  padding: 0 44px 0 0;
+  font-family: Formularlight;
+  font-size: 16px;
+  text-decoration: none;
+  align-self: center;
+  min-width: max-content;
+  color: black;
 }
 
 .header__link:first-child {
-    padding: 0 44px 0 10px;
+  padding: 0 44px 0 10px;
 }
 .header__link:last-child {
-    padding: 0 39px 0 0;
+  padding: 0 39px 0 0;
 }
+ 
+@media screen and (max-width: 1252px) {
+  .header__link:last-child {
+    padding: 0 20px 0 0;
+  }
+}
+
+

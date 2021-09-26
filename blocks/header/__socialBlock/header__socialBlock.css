@@ -1,8 +1,36 @@
 .header__socialBlock {
   margin: 0;
-  padding: 0 15px;
-  height: 100%;
+  padding: 0;
+  font-family: Formularlight;
+  list-style: none;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
   align-items: center;
-  box-shadow: 0 -50px 0px 1px #e5e5e5, 0 -10px 0px -1px #e5e5e5,
-    5px 4px 0 -4px #242424, -5px 4px 0 -4px #242424;
+  border-bottom: #242424 solid 1px;
+  box-shadow: -1px 0px 0px 0px #242424, 1px 0px 0px 0px #242424;
+
+
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 1392px){
+  .header__socialBlock {
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width: 1120px){
+  .header__socialBlock {
+    flex-grow: 0;
+    border-bottom: none;
+    box-shadow: 1px 0 0 0 #242424;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header__socialBlock {
+    display: none;
+  }
 }

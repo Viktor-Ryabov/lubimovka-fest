@@ -1,0 +1,11 @@
+.photography__gallery {
+    display: grid;
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    gap: 0;
+
+}

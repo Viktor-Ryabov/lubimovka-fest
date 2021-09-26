@@ -1,12 +1,46 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/font.css);
+
 @import url(../fonts/__formularLight/formular-light.css);
+@import url(../fonts/__neueMachinaRegular/PPNeueMachina-regular.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__projects-icon/header__projects-icon.css);
 @import url(../blocks/header/__socialBlock/header__socialBlock.css);
 @import url(../blocks/header/__socialLink/header__socialLink.css);
+@import url(../blocks/header/__projects-link/header__projects-link.css);
+@import url(../blocks/header/__projects-link-arrow/header__projects-link-arrow.css);
+@import url(../blocks/header/__projects-link-text/header__projects-link-text.css);
+@import url(../blocks/header/__burger-menu/header__burger-menu.css);
+@import url(../blocks/header/__burger-menu-button/header__burger-menu-button.css);
+@import url(../blocks/header/__menu/_dropDownOpen/header__menu_dropDownOpen.css);
+@import url(../blocks/header/__menu/_dropNewForm/header__menu_dropNewForm.css);
 
+@import url(../blocks/meeting/meeting.css);
+@import url(../blocks/meeting/__descriptionAndFoto/meeting__descriptionAndFoto.css);
+@import url(../blocks/meeting/__title/meeting__title.css);
+@import url(../blocks/meeting/__description/meeting__description.css);
+@import url(../blocks/meeting/__foto/meeting__foto.css);
+
+/*photography*/
+@import url(../blocks/photography/__title/photography__title.css);
+@import url(../blocks/photography/__element/photography__element.css);
+@import url(../blocks/photography/__gallery/photography__gallery.css);
+@import url(../blocks/photography/photography.css);
+
+/*show*/
+@import url(../blocks/show/show.css);
+@import url(../blocks/show/__description/show__description.css);
+@import url(../blocks/show/__short/show__short.css);
+@import url(../blocks/show/__about/show__about.css);
+@import url(../blocks/show/__about-head/show__about-head.css);
+@import url(../blocks/show/__list/show__list.css);
+@import url(../blocks/show/__text/show__text.css);
+@import url(../blocks/show/__video/show__video.css);
+@import url(../blocks/show/__name/show__name.css);
+@import url(../blocks/show/__prof/show__prof.css);
+@import url(../blocks/show/__credits/show__credits.css);

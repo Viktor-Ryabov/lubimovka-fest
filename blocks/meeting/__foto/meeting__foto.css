@@ -1,0 +1,12 @@
+.meeting__foto {
+  margin: 0;
+  padding: 0;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 940px) {
+  .meeting__foto {
+    max-width: 100%;
+    min-width: 320px;
+  }
+}

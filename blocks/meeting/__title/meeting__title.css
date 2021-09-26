@@ -1,0 +1,18 @@
+.meeting__title {
+  margin: 59px auto 65px 50%;
+  padding: 0;
+  font-family: PPNeueMachina-regular;
+  font-size: 72px;
+  text-align: left;
+  vertical-align: top;
+  max-width: 450px;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 940px) {
+  .meeting__title {
+    margin: 58px auto 22px auto;
+    font-size: 40px;
+    width: 323px;
+  }
+}

@@ -1,0 +1,15 @@
+.show__about-head{
+    margin: 0;
+    font-family: PPNeueMachina-Regular;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding: 0 16px;
+}
+
+.show__about-head:first-child{
+    padding-left: 0;
+    border-right: 1px solid #242424;
+}

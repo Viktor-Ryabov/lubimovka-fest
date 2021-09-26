@@ -1,0 +1,12 @@
+.show__short{
+    margin: 0;
+    min-width: 280px;
+    box-sizing: border-box;
+    padding: 68px 27px 72px;
+
+}
+@media screen and (max-width: 320px){
+    .show__short{
+        background-color: #FFF;
+    }
+}

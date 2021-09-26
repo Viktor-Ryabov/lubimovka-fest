@@ -15,3 +15,16 @@
 @import url(../blocks/photography/__element/photography__element.css);
 @import url(../blocks/photography/__gallery/photography__gallery.css);
 @import url(../blocks/photography/photography.css);
+
+/*show*/
+@import url(../blocks/show/show.css);
+@import url(../blocks/show/__description/show__description.css);
+@import url(../blocks/show/__short/show__short.css);
+@import url(../blocks/show/__about/show__about.css);
+@import url(../blocks/show/__about-head/show__about-head.css);
+@import url(../blocks/show/__list/show__list.css);
+@import url(../blocks/show/__text/show__text.css);
+@import url(../blocks/show/__video/show__video.css);
+@import url(../blocks/show/__name/show__name.css);
+@import url(../blocks/show/__prof/show__prof.css);
+@import url(../blocks/show/__credits/show__credits.css);

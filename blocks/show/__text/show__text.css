@@ -1,0 +1,16 @@
+.show__text{
+    margin: 0;
+    max-width: 602px;
+    font-family: FormularLight;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    padding-bottom: 14px;
+    
+}
+
+.show__text:last-child{
+    padding-bottom: 0;
+}

@@ -1,0 +1,15 @@
+.show{
+    padding-top: 68px;
+    margin: 0;
+    display: flex;
+    background-color: #ECEBE8;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1440px;
+    min-width: 414px;
+}
+@media screen and (max-width: 320px){
+    .show{
+        flex-direction: column;
+    }
+}

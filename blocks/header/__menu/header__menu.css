@@ -1,8 +1,29 @@
 .header__menu {
   margin: 0;
   padding: 0;
+  height: 61px;
   font-family: Formularlight;
   list-style: none;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+  border-bottom: #242424 solid 1px;
+}
+
+@media screen and (max-width: 1400px) {
+  .header__menu {
+    margin: 0 0 0 auto;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header__menu {
+    visibility: hidden;
+    display: none;
+  }
 }

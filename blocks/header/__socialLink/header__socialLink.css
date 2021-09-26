@@ -1,8 +1,9 @@
 .header__socialLink{
-    margin: 0;
+    margin: 0 auto;
     padding: 0 16px 0 0;
     font-family: Formularlight;
     font-size: 16px;
+    color: black;
     text-decoration: none;
 }
 
@@ -12,3 +13,9 @@
 .header__socialLink:last-child {
     padding: 0 16px 0 10px;
 }
+
+@media screen and (max-width: 1235px) {
+    .header__socialLink:last-child {
+      padding: 0 20px 0 10px;
+    }
+  }

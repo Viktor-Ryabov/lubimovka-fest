@@ -1,6 +1,20 @@
-.header__logo{
-    margin: auto 33px auto 30px;
+.header__logo {
+  margin: 0 auto;
+  padding: 15px 43px 11px 30px;
+  width: 43px;
+  height: 35px;
+  justify-self: left;
+  flex-grow: 0;
+  border-bottom: #242424 solid 1px;
+}
+
+@media screen and (max-width: 840px) {
+  .header__logo {
+    margin: 0;
     padding: 0;
-    width: 35px;
-    height: 43px;
+    position: absolute;
+    top: 32px;
+    left: 24px;
+    border-bottom: none;
+  }
 }

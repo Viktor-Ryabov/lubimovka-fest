@@ -1,8 +1,25 @@
-.header__button{
-    margin: auto 20px auto 23px;
-    padding: 0;
-    border: none;
-    background-color: inherit;
-    cursor: pointer;
+.header__button {
+  margin: 0;
+  padding: 0 20px 0 23px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  height: 62px;
+  font-size: 14px;
+  min-width: max-content;
+  border-bottom: #242424 solid 1px;
+  display: flex;
+  align-items: center;
+}
 
+@media screen and (max-width: 1400px) {
+  .header__button {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header__button {
+    visibility: hidden;
+  }
 }
